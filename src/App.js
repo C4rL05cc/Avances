@@ -9,6 +9,8 @@ import xls1 from '../src/files/Reporte-Pruebas-PRC01.2.xlsx';
 import xls2 from '../src/files/Reporte-Pruebas-APS01.xlsx';
 import xls3 from '../src/files/Reporte-Pruebas-MRW01.2.xlsx';
 import xls4 from '../src/files/base de datos-mysql.xlsx';
+import xls5 from '../src/files/review sprint2.xlsx';
+import xls6 from '../src/files/Sprint _planning_sprint3.xlsx';
 import doc1 from '../src/files/Reporte-Inventario.docx';
 
 class App extends Component {
@@ -46,14 +48,27 @@ class App extends Component {
         <br></br><br></br><br></br><br></br>
         <hr></hr><br></br>
         <h1 className="centro">Avances Sprint 3</h1>
+        <h2 className="centro">Como resultado de Review Meeting del sprint 2, se decide modificar un producto:</h2>
+        <img src={require('./imgs/review_s2.jpg')} className="imagce"/>
+        <br></br>
+        <h2 className="centro">De ésta forma incrementan los puntos de historia para el sprint 3, lo cual se acordó en la reunión Sprint Planning</h2>
+        <img src={require('./imgs/planning_s3.jpg')} className="imagce"/><br></br>
+        <h2 className="centro">Modificaciones al Sprint 3</h2>
+        <img src={require('./imgs/PH_S3.jpg')} className="imagce"/>
+        <br></br>
         <h2 className="centro">Se decide modificar la interfaz del cliente, mostrando informacion concerniente a la contingencia</h2>
         <img src={require('./imgs/Update-cliente.png')} className="imagce"/>
-
+        <br></br>        
         <h2 className="centro">Inventario de los productos y servicios disponibles APS01.1</h2>
         <img src={require('./imgs/inventario.png')} className="imagce"/><br></br>
         <h2 className="centro">Base de datos Mysql PRC01.3</h2>
         <img src={require('./imgs/base.png')} className="imagce"/>
 
+        
+        <p className="centro">Resultado de la Review Meeting
+        <a href={xls5}> (Sprint 2)</a></p>
+        <p className="centro">Resultado de la Sprint Planning Meeting 
+        <a href={xls6}> (Sprint 3)</a></p>
         <p className="centro">Estructura de la base de datos Mysql 
         <a href={xls4}> (PRC01.3)</a></p>
         <p className="centro">Reporte de inventario de productos y servicios 
