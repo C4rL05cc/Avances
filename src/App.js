@@ -101,6 +101,87 @@ class App extends Component {
       </Form>
       <br></br><br></br>
       <hr></hr>
+      <br></br><br></br>
+      
+      <div className="centro">
+        <h1>Avances Sprint 4</h1>
+        <h3>Inició el 27 de marzo</h3>
+        <h2 className="centro">Review meeting- Sprint 3</h2>
+        <img src={require('./imgs/review_s3.jpg')} className="imagce"></img>
+        <br></br>
+        <h2 className="centro">Sprint Planning- Sprint 4</h2>
+        <img src={require('./imgs/planning_s4.jpg')} className="imagce"></img>
+        <br></br>
+        <h2 className="centro">Tareas Sprint 4</h2>
+        <img src={require('./imgs/Sprint4.jpg')} className="imagce"></img>
+        <br></br>
+        <h3>Aplicación web (MRW01.2)</h3>
+        <br></br>
+        <div className="container">
+      <a href="#">
+        <img src={require('./imgs/LOGO1-1.png')} className="logo"/><br></br>
+      </a>
+      <div className="covid">
+      <p> CoVid19 Si crees tener los síntomas, permanece <br></br>en tu habitación y reportalo al 911 </p>
+      </div>
+      <a href="#">
+      <p className="enlac">Ir a la página de información general para ésta contingéncia</p>
+      </a>
+<nav>
+<ul>
+  <li><a href="#" class="active">Inicio</a></li>
+  <li><a href="#">Productos</a></li>
+  <li><a href="#">Servicios</a></li>
+  <li><a href="#">Productos</a></li>
+  <li><a href="#">Reservaciones</a></li>  
+</ul>
+</nav></div>
+<div className="container2">
+  <div className="amarillo"> <p>Hasta el momento se contabilizan 19 casos confirmados en el Estado de México</p></div>
+<div className="mini"><p className="grande">Realizar una reservación</p>
+<p>Has elegido como destino <span className="azul">Valle de Bravo</span></p><p className="naranja">Recuerda lavarte las manos con frecuencia</p></div>
+<div className="imagV"><img src={require('./imgs/valle_de_bravo.jpg')} className="imagen"/></div><br></br>
+<br></br>
+<div className="inferior">
+<div className="izquierda">
+  <div className="fechas">
+<p>En construcción...</p>
+  </div>
+  </div>
+  <div className="derecha">
+
+  
+</div>
+</div>
+</div>
+
+
+      </div>
+      <hr></hr>
+      <h3 className="centro">Chat en línea (AAL01.1)</h3>
+        <br></br>
+        <div className="carac">
+        <div className="chatbox">
+    <div className="chatlogs">
+        <div className="chat cups">   
+         <div className="user-photo"></div>
+       <p className="chat-message">Como podemos ayudarte?</p>     
+      </div>
+        <div className="chat usuario">   
+         <div className="user-photo"></div>
+       <p className="chat-message"> Queria confirmar una reservacion</p>      
+      </div>
+      <div className="chat cups">   
+         <div className="user-photo"></div>
+       <p className="chat-message">ok, podria darme su codigo de reservacion</p>      
+      </div>
+  </div>
+  <div className="chat-form">
+  <textarea></textarea>
+  <button> send </button>
+</div>  
+</div>
+</div>        
     </div>
     );
   }
