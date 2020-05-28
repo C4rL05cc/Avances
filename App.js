@@ -12,6 +12,7 @@ import xls4 from '../src/files/base de datos-mysql.xlsx';
 import xls5 from '../src/files/review sprint2.xlsx';
 import xls6 from '../src/files/Sprint _planning_sprint3.xlsx';
 import doc1 from '../src/files/Reporte-Inventario.docx';
+import zip1 from '../src/files/codigo.zip';
 
 class App extends Component {
   render (){
@@ -21,20 +22,18 @@ class App extends Component {
         <div class="menu">
             <h4>Proyecto CUPS</h4>
         </div>
-        <ul class="enlaces">
-            <li>
-                <a href="#">Unidad 1</a>
-            </li>
-            <li>
-                <a href="#unidad2">Unidad 2</a>
-            </li>
-            <li>
-                <a href="#unidad3">Unidad 3</a>
-            </li>
-            <li>
-                <a href="#unidad4">Unidad 4</a>
-            </li>
+        <ul>  
+  <li><a href="#">Actividades</a>
+    <ul>
+      <li><a href="#">Unidad 1</a></li>        
+      <li><a href="#unidad2">Unidad 2</a></li>        
+      <li><a href="#unidad3">Unidad 3</a></li>        
+      <li><a href="#unidad4">Unidad 4</a></li>        
         </ul>
+  </li>
+  <li><a href="#reporte">Reporte</a></li>
+  <li><a href="#codigo">Código</a></li>
+</ul>
         <div class="hamburguesa">
             <div class="linea1"></div>
             <div class="linea2"></div>
@@ -225,11 +224,21 @@ class App extends Component {
   <div className="chat-form">
   <textarea></textarea>
   <button> send </button>
-</div>  
+</div>  </div>
 <br></br><br></br><br></br><br></br>
+<hr id="reporte"></hr>
 <h2 className="centro">Para concluir la actividad, se realiza un reporte final de los cambios realizados a lo largo de los sprints.</h2>
         <img src={require('./imgs/reporte-final.jpg')} className="imagce"/><br></br>
-</div>
+
+
+        <br></br><br></br><br></br>
+<hr id="codigo"></hr><br></br><br></br>
+<h2 className="centro">El código de react puede ser descargado en el siguiente enlace:</h2>
+<p className="centro">
+        <a href={zip1}> Codigo.zip</a></p>
+<br></br><br></br>
+<br></br><br></br><br></br><br></br>
+
 </div>        
     </div>
     );
